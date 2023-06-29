@@ -1,5 +1,3 @@
-
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
@@ -10,62 +8,88 @@ import java.util.NoSuchElementException;
 
 public class StringQueue implements IQueue {
 
-  private List<String> elements = new ArrayList<String>();
-  private int maxSize = 5;
+    private List<String> elements = new ArrayList<String>();
+    private int maxSize = 5;
 
-  public StringQueue(int maxsize) {
-    maxSize = maxSize;
-  }
-
-  @Override
-  public boolean offer(String obj) {
-    if (elements.size() != maxSize)
-      elements.add(obj);
-    else
-      return false;
-
-    return true;
-  }
-
-  @Override
-  public String poll() {
-    String element = peek();
-
-    if (elements.size() == 0) {
-      elements.remove(0);
+    public StringQueue(int maxsize) {
+        maxSize = maxSize;
     }
 
-    return element;
-  }
+    /**
+     * adds elements to list
+     *
+     * @param obj element to add
+     * @return true when added succesfully, false if not added succssfully
+     */
+    @Override
+    public boolean offer(String obj) {
+        if (elements.size() != maxSize)
+            elements.add(obj);
+        else
+            return false;
 
-  @Override
-  public String remove() {
-    String element = poll();
-    element = "";
-    if (element == null)
-      throw new NoSuchElementException("there's no element any more");
+        return true;
+    }
 
-    return element;
-  }
+    /**
+     * deletes and returns the first element
+     *
+     * @return element of 1st element or null if nothing there
+     */
+    @Override
+    public String poll() {
+        String element = peek();
 
-  @Override
-  public String peek() {
-    String element;
-    if (elements.size() > 0)
-      element = elements.get(0);
-    else
-      element = null;
+        if (elements.size() == 0) {
+            elements.remove(0);
+        }
 
-    return element;
-  }
+        return element;
+    }
 
-  @Override
-  public String element() {
-    String element = peek();
-    if (element == null)
-      throw new NoSuchElementException("there's no element any more");
+    /**
+     * deletes the first element
+     *
+     * @throws NoSuchElementExeption if no element to delete
+     */
+    @Override
+    public String remove() {
+        String element = poll();
+        element = "";
+        if (element == null)
+            throw new NoSuchElementException("there's no element any more");
 
-    return element;
-  }
+        return element;
+    }
+
+    /**
+     * returns the first element without deleting
+     *
+     * @return element of 1st element or null if nothing there
+     */
+    @Override
+    public String peek() {
+        String element;
+        if (elements.size() > 0)
+            element = elements.get(0);
+        else
+            element = null;
+
+        return element;
+    }
+
+    /**
+     * returns the first element with error if null
+     *
+     * @return element of 1st element or null if nothing there
+     */
+    @Override
+    public String element() {
+        String element = peek();
+        if (element == null)
+            throw new NoSuchElementException("there's no element any more");
+
+        return element;
+    }
 
 }s
