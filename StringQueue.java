@@ -23,12 +23,11 @@ public class StringQueue implements IQueue {
      */
     @Override
     public boolean offer(String obj) {
-        if (elements.size() != maxSize)
+        if (elements.size() != maxSize) {
             elements.add(obj);
-        else
-            return false;
-
-        return true;
+            return true;
+        }
+        return false
     }
 
     /**
@@ -40,7 +39,7 @@ public class StringQueue implements IQueue {
     public String poll() {
         String element = peek();
 
-        if (elements.size() == 0) {
+        if (elements.size() > 0) {
             elements.remove(0);
         }
 
@@ -55,10 +54,10 @@ public class StringQueue implements IQueue {
     @Override
     public String remove() {
         String element = poll();
-        element = "";
-        if (element == null)
+        if (element == null) {
             throw new NoSuchElementException("there's no element any more");
-
+        }
+        element = "";
         return element;
     }
 
@@ -88,7 +87,6 @@ public class StringQueue implements IQueue {
         String element = peek();
         if (element == null)
             throw new NoSuchElementException("there's no element any more");
-
         return element;
     }
 
