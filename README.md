@@ -6,7 +6,7 @@
 - Valentina Breithuber
 
 ## Tasklist
-- [ ] bug_hunt
+- [X] bug_hunt
 - [ ] Interface drinks
 - [ ] Queue in Interface drinks
 - [ ] Update Queue to double_queue
