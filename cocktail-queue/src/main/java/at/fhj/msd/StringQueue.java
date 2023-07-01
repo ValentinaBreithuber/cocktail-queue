@@ -1,3 +1,5 @@
+package at.fhj.iit;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
@@ -27,7 +29,7 @@ public class StringQueue implements IQueue {
             elements.add(obj);
             return true;
         }
-        return false
+        return false;
     }
 
     /**
@@ -49,7 +51,7 @@ public class StringQueue implements IQueue {
     /**
      * deletes the first element
      *
-     * @throws NoSuchElementExeption if no element to delete
+     * @throws NoSuchElementException if no element to delete
      */
     @Override
     public String remove() {
@@ -90,4 +92,4 @@ public class StringQueue implements IQueue {
         return element;
     }
 
-}s
+}
