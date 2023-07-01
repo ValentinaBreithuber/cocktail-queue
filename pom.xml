@@ -20,6 +20,18 @@
             </roles>
             <timezone>Europe/Vienna</timezone>
         </developer>
+        <developer>
+            <id>dominikkainbacher</id>
+            <name>Dominik Kainbacher</name>
+            <email>dominik.kainbacher@fh-joanneum.at</email>
+            <organization>FH JOANNEUM GmbH</organization>
+            <organizationUrl>https://www.fh-joanneum.at/iit</organizationUrl>
+            <url>https://github.com/Kainbacher-Dominik</url>
+            <roles>
+                <role>Student</role>
+            </roles>
+            <timezone>Europe/Vienna</timezone>
+        </developer>
     </developers>
 
     <properties>
