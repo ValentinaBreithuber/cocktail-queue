@@ -7,7 +7,7 @@
 
 ## Tasklist
 - [X] bug_hunt
-- [ ] Interface drinks
+- [X] Interface drinks
 - [ ] Queue in Interface drinks
 - [ ] Update Queue to double_queue
 - [ ] JavaDocs
