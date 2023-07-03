@@ -1,9 +1,13 @@
 package at.fhj.iit;
 // put into drinkss
+
+/**
+ * Object with drinks consist of
+ */
 public class Liquid {
 
     /**
-     * Nameof liquid
+     * Name of liquid
      */
     private String name;
 
