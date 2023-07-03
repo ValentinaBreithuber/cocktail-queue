@@ -35,6 +35,11 @@ public class DrinkQueue {
         return true;
     }
 
+    /**
+     * Removes and returns first element
+     *
+     * @return element
+     */
     public Object poll() {
         Object element = peek();
         if (elements.size() == 0) {
@@ -43,6 +48,11 @@ public class DrinkQueue {
         return element;
     }
 
+    /**
+     * Removes first drink of Queue
+     *
+     * @return element
+     */
     public Object remove() {
         Object element = poll();
         if (element == null)
