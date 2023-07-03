@@ -1,35 +1,37 @@
 package at.fhj.iit;
-
-// fastly written (not really nice) comments you should adapt
+/**
+ * Interface base class for sorting Strings into Queue
+ */
 public interface IQueue {
-  /** 
-   * I am a really bad comment
-   * 
-   * fasdfadsffdsadsf
-   * 
-   * fdsasdfadsf
-   * 
-   *  add object to queue, true if okay 
-   * 
-   * i fell asleep on my keyboard...
-   * 
-   * */ 
+  /**
+   * adds elements to list
+   *
+   * @param obj String
+   * @return true when added succesfully, false if not added succssfully
+   */
   public abstract boolean offer(String obj);
-
-  //returns + del 1st element; null if nothing in there
-   //
+  /**
+   * deletes and returns the first element
+   *
+   * @return element of 1st element, null if nothing there
+   */
   public abstract String poll();
-
-  /* 
-  same as poll, if there is nothing in there error NoSuchElementException
+  /**
+   * deletes the first element
+   *
+   * @throws NoSuchElementException if no element to delete
    */
   public abstract String remove();
-
-  // 1st element without dlete, otherwise null
-   
+  /**
+   * returns the first element without deleting
+   *
+   * @return element of 1st element, null if nothing there
+   */
   public abstract String peek();
-
-  // element is to peek what remove is to poll
-  
+  /**
+   * returns the first element with error if null
+   *
+   * @return element of 1st element, null if nothing there
+   */
   public abstract String element();
 }
