@@ -27,7 +27,7 @@ public class DrinkQueue {
      * @param drink Drink
      * @return boolean
      */
-    public boolean offer(at.fhj.iit.Drink drink) {
+    public boolean offer(Drink drink) {
         if (elements.size() != maxSize)
             elements.add(drink);
         else
@@ -73,16 +73,8 @@ public class DrinkQueue {
         return element;
     }
 
-    /**
-     * Calls first element of queue
-     *
-     * @return element
-     * @throws NoSuchElementException i the queue is empty
-     */
     public Object element() {
-        Object element = peek();
-        if (element == null)
-            throw new NoSuchElementException("the queue is empty");
-        return element;
+        //TODO
+        return null;
     }
 }
