@@ -73,8 +73,17 @@ public class DrinkQueue {
         return element;
     }
 
+    /**
+     * Gets first element of queue
+     *
+     * @return element
+     * @throws NoSuchElementException if the queue is empty
+     */
     public Object element() {
-        //TODO
-        return null;
+        Object element = peek();
+        if (element == null)
+            throw new NoSuchElementException("the queue is empty");
+        return element;
     }
+
 }
