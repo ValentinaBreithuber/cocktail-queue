@@ -36,13 +36,18 @@ public class DrinkQueue {
     }
 
     public Object poll() {
-        //TODO
-        return null;
+        Object element = peek();
+        if (elements.size() == 0) {
+            elements.remove(0);
+        }
+        return element;
     }
 
     public Object remove() {
-        //TODO
-        return null;
+        Object element = poll();
+        if (element == null)
+            throw new NoSuchElementException("there is no element here");
+        return element;
     }
     /**
      * Gets first element if elements is not empty
