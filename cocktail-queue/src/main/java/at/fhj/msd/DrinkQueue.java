@@ -35,14 +35,29 @@ public class DrinkQueue {
         return true;
     }
 
+    /**
+     * Removes and returns first element
+     *
+     * @return element
+     */
     public Object poll() {
-        //TODO
-        return null;
+        Object element = peek();
+        if (elements.size() == 0) {
+            elements.remove(0);
+        }
+        return element;
     }
 
+    /**
+     * Removes first drink of Queue
+     *
+     * @return element
+     */
     public Object remove() {
-        //TODO
-        return null;
+        Object element = poll();
+        if (element == null)
+            throw new NoSuchElementException("there is no element here");
+        return element;
     }
     /**
      * Gets first element if elements is not empty
@@ -58,8 +73,17 @@ public class DrinkQueue {
         return element;
     }
 
+    /**
+     * Gets first element of queue
+     *
+     * @return element
+     * @throws NoSuchElementException if the queue is empty
+     */
     public Object element() {
-        //TODO
-        return null;
+        Object element = peek();
+        if (element == null)
+            throw new NoSuchElementException("the queue is empty");
+        return element;
     }
+
 }
