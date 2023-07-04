@@ -5,13 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc4d181f-6d68-41f2-baa0-e088e780d558" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/cocktail-queue/src/test/java/at/fhj/msd/DrinkQueueTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cocktail-queue/src/test/java/at/fhj/msd/StringQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cocktail-queue/src/test/java/at/fhj/msd/StringQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/src/main/java/at/fhj/msd/Drink.java" beforeDir="false" afterPath="$PROJECT_DIR$/cocktail-queue/src/main/java/at/fhj/msd/Drink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/src/main/java/at/fhj/msd/DrinkQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/cocktail-queue/src/main/java/at/fhj/msd/DrinkQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cocktail-queue/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/target/test-classes/java/at/fhj/msd/SimpleDrinkTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/target/test-classes/java/at/fhj/msd/StringQueueTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="2" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,6 +57,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test.java.at.fhj.msd" />
       <recent name="java.at.fhj.msd" />
     </key>
   </component>
@@ -94,7 +103,7 @@
       <workItem from="1688330575597" duration="1543000" />
       <workItem from="1688332133148" duration="1516000" />
       <workItem from="1688464016976" duration="2545000" />
-      <workItem from="1688471320110" duration="1325000" />
+      <workItem from="1688471320110" duration="4427000" />
     </task>
     <servers />
   </component>
@@ -112,8 +121,30 @@
       </map>
     </option>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cocktail-queue/src/test/java/at/fhj/msd/DrinkQueueTest.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cocktail-queue/src/test/java/at/fhj/msd/DrinkQueueTest.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/cocktail_queue$StringQueueTest.ic" NAME="StringQueueTest Coverage Results" MODIFIED="1688472641126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.java.at.fhj.msd.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/cocktail_queue$DrinkQueueTest.ic" NAME="DrinkQueueTest Coverage Results" MODIFIED="1688476134354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.java.at.fhj.msd.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/cocktail_queue$SimpleDrinkTest.ic" NAME="SimpleDrinkTest Coverage Results" MODIFIED="1688472809667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.java.at.fhj.msd.*</FILTER>
     </SUITE>
   </component>
