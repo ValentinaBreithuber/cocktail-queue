@@ -1,6 +1,4 @@
-package main.java.at.fhj.msd;
-import main.java.at.fhj.msd.Drink;
-
+package at.fhj.iit;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
@@ -9,7 +7,7 @@ public class DrinkQueue {
     /**
      * List of all Drinks
      */
-    private List<Drink> elements = new ArrayList<>();
+    private List<Object> elements = new ArrayList<Object>();
     /**
      * Maximum size of list
      */
@@ -42,9 +40,9 @@ public class DrinkQueue {
      *
      * @return element
      */
-    public Drink poll() {
-        Drink element = (Drink) peek();
-        if (elements.size() > 0) {
+    public Object poll() {
+        Object element = peek();
+        if (elements.size() == 0) {
             elements.remove(0);
         }
         return element;
@@ -55,11 +53,10 @@ public class DrinkQueue {
      *
      * @return element
      */
-    public Drink remove() {
-        Drink element = poll();
-        if (element == null) {
+    public Object remove() {
+        Object element = poll();
+        if (element == null)
             throw new NoSuchElementException("there is no element here");
-        }
         return element;
     }
     /**
@@ -67,8 +64,8 @@ public class DrinkQueue {
      *
      * @return element
      */
-    public Drink peek() {
-        Drink element;
+    public Object peek() {
+        Object element;
         if (elements.size() > 0)
             element = elements.get(0);
         else
@@ -82,8 +79,8 @@ public class DrinkQueue {
      * @return element
      * @throws NoSuchElementException if the queue is empty
      */
-    public Drink element() {
-        Drink element = peek();
+    public Object element() {
+        Object element = peek();
         if (element == null)
             throw new NoSuchElementException("the queue is empty");
         return element;

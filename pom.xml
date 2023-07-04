@@ -32,18 +32,6 @@
             </roles>
             <timezone>Europe/Vienna</timezone>
         </developer>
-        <developer>
-            <id>alaaabouelfadl</id>
-            <name>Alaa Abou El Fadl</name>
-            <email>alaa.abouelfadl@edu.fh-joanneum.at</email>
-            <url>https://github.com/AlaaAbouElFadl</url>
-            <organization>FH JOANNEUM</organization>
-            <organizationUrl>https://www.fh-joanneum.at/iit</organizationUrl>
-            <roles>
-                <role>Student</role>
-            </roles>
-            <timezone>Europe/Vienna</timezone>
-        </developer>
     </developers>
 
     <properties>
@@ -123,12 +111,6 @@
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
             <version>2.20.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <version>5.9.3</version>
-            <scope>compile</scope>
         </dependency>
     </dependencies>
     <reporting>

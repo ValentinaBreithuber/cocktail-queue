@@ -1,4 +1,4 @@
-package main.java.at.fhj.msd;
+package at.fhj.iit;
 /**
  * Interface base class for sorting Strings into Queue
  */

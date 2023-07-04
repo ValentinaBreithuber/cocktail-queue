@@ -1,5 +1,0 @@
-#ignore html and pdf files
-*.html
-*.pdf
-*.idea
-*.log

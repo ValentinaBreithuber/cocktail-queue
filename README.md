@@ -9,7 +9,7 @@
 - [X] bug_hunt
 - [X] Interface drinks
 - [X] Queue in Interface drinks
-- [X] Update Queue to double_queue
+- [ ] Update Queue to double_queue
 - [ ] JavaDocs
 - [ ] Test methods
 
