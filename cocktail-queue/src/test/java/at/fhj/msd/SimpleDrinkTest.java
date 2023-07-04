@@ -1,4 +1,4 @@
-package java.at.fhj.msd;
+package test.java.at.fhj.msd;
 
 import main.java.at.fhj.msd.Liquid;
 import main.java.at.fhj.msd.SimpleDrink;
@@ -20,15 +20,15 @@ public class SimpleDrinkTest {
     @DisplayName("Testing getVolume() method")
     @Test
     public void testGetVolume() {
-        assertEquals(30.0,drink1.getVolume());
-        assertEquals(60.0,drink2.getVolume());
+        assertEquals(40.0,drink1.getVolume());
+        assertEquals(45.0,drink2.getVolume());
     }
 
     @DisplayName("Testing getAlcoholPercent() method")
     @Test
     void testGetAlcoholPerc() {
-        assertEquals(40.0,drink1.getAlcoholPercent());
-        assertEquals(45.0,drink2.getAlcoholPercent());
+        assertEquals(30.0,drink1.getAlcoholPercent());
+        assertEquals(60.0,drink2.getAlcoholPercent());
     }
 
     @DisplayName("Testing isAlcoholic() method")
