@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc4d181f-6d68-41f2-baa0-e088e780d558" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cocktail-queue/src/main/java/at/fhj/msd/DoubleQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cocktail-queue/src/test/java/at/fhj/msd/DoubleQueueTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/src/main/java/at/fhj/msd/DoubleQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/cocktail-queue/src/main/java/at/fhj/msd/DoubleQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/src/test/java/at/fhj/msd/DoubleQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cocktail-queue/src/test/java/at/fhj/msd/DoubleQueueTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,83 @@
       <recent name="java.at.fhj.msd" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.DoubleQueueTest,testOffer and 4 more">
+    <configuration name="DoubleQueueTest.testElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="msd22_Breithuber_Valentina" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.at.fhj.msd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.at.fhj.msd" />
+      <option name="MAIN_CLASS_NAME" value="test.java.at.fhj.msd.DoubleQueueTest" />
+      <option name="METHOD_NAME" value="testElement" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoubleQueueTest,testOffer and 4 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="msd22_Breithuber_Valentina" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="test.java.at.fhj.msd.DoubleQueueTest,testOffer" />
+        <pattern testClass="test.java.at.fhj.msd.DoubleQueueTest,testPoll" />
+        <pattern testClass="test.java.at.fhj.msd.DoubleQueueTest,testRemove" />
+        <pattern testClass="test.java.at.fhj.msd.DoubleQueueTest,testPeek" />
+        <pattern testClass="test.java.at.fhj.msd.DoubleQueueTest,testElement" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoubleQueueTest.testPoll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="msd22_Breithuber_Valentina" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.at.fhj.msd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.at.fhj.msd" />
+      <option name="MAIN_CLASS_NAME" value="test.java.at.fhj.msd.DoubleQueueTest" />
+      <option name="METHOD_NAME" value="testPoll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoubleQueueTest.testRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="msd22_Breithuber_Valentina" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.at.fhj.msd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.at.fhj.msd" />
+      <option name="MAIN_CLASS_NAME" value="test.java.at.fhj.msd.DoubleQueueTest" />
+      <option name="METHOD_NAME" value="testRemove" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.java.at.fhj.msd in msd22_Breithuber_Valentina" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="msd22_Breithuber_Valentina" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.at.fhj.msd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.at.fhj.msd" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="cocktail-queue" />
       <method v="2">
@@ -78,6 +154,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DoubleQueueTest,testOffer and 4 more" />
+        <item itemvalue="JUnit.DoubleQueueTest.testRemove" />
+        <item itemvalue="JUnit.DoubleQueueTest.testPoll" />
+        <item itemvalue="JUnit.test.java.at.fhj.msd in msd22_Breithuber_Valentina" />
+        <item itemvalue="JUnit.DoubleQueueTest.testElement" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -124,22 +209,6 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cocktail-queue/src/test/java/at/fhj/msd/DrinkQueueTest.java</url>
-          <line>93</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cocktail-queue/src/test/java/at/fhj/msd/DrinkQueueTest.java</url>
-          <line>76</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/cocktail_queue$StringQueueTest.ic" NAME="StringQueueTest Coverage Results" MODIFIED="1688472641126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.java.at.fhj.msd.*</FILTER>
@@ -148,6 +217,9 @@
       <FILTER>test.java.at.fhj.msd.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/cocktail_queue$SimpleDrinkTest.ic" NAME="SimpleDrinkTest Coverage Results" MODIFIED="1688472809667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.java.at.fhj.msd.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/cocktail_queue$test_java_at_fhj_msd_in_msd22_Breithuber_Valentina.ic" NAME="test.java.at.fhj.msd in msd22_Breithuber_Valentina Coverage Results" MODIFIED="1688492922142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.java.at.fhj.msd.*</FILTER>
     </SUITE>
   </component>

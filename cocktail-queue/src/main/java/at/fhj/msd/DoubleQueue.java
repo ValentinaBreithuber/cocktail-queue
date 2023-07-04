@@ -90,4 +90,5 @@ public class DoubleQueue {
             throw new NoSuchElementException("the queue is empty");
         return element;
     }
+
 }
