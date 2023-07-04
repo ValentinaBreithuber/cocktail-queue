@@ -44,7 +44,7 @@ public class DrinkQueue {
      */
     public Drink poll() {
         Drink element = (Drink) peek();
-        if (elements.size() == 0) {
+        if (elements.size() > 0) {
             elements.remove(0);
         }
         return element;
@@ -57,8 +57,9 @@ public class DrinkQueue {
      */
     public Drink remove() {
         Drink element = poll();
-        if (element == null)
+        if (element == null) {
             throw new NoSuchElementException("there is no element here");
+        }
         return element;
     }
     /**
