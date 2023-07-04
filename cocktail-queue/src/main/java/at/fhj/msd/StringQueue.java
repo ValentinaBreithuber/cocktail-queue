@@ -1,4 +1,6 @@
-package at.fhj.iit;
+package main.java.at.fhj.msd;
+
+import main.java.at.fhj.msd.IQueue;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,7 +23,7 @@ public class StringQueue implements IQueue {
      * adds elements to list
      *
      * @param obj element to add
-     * @return true when added succesfully, false if not added succssfully
+     * @return true when added successfully, false if not added successfully
      */
     @Override
     public boolean offer(String obj) {

@@ -8,8 +8,8 @@
 ## Tasklist
 - [X] bug_hunt
 - [X] Interface drinks
-- [ ] Queue in Interface drinks
-- [ ] Update Queue to double_queue
+- [X] Queue in Interface drinks
+- [X] Update Queue to double_queue
 - [ ] JavaDocs
 - [ ] Test methods
 

@@ -4,11 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc4d181f-6d68-41f2-baa0-e088e780d558" name="Changes" comment="" />
+    <list default="true" id="dc4d181f-6d68-41f2-baa0-e088e780d558" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/src/main/java/at/fhj/msd/DoubleQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/cocktail-queue/src/main/java/at/fhj/msd/DoubleQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/at/fhj/msd/DoubleQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/at/fhj/msd/DoubleQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/at/fhj/msd/DoubleQueueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/java/at/fhj/msd/DoubleQueueTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="2" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,21 +45,127 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "C:/Users/alaaa/OneDrive/Documents/GitHub/cocktail-queue",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/alaaa/OneDrive/Documents/GitHub/cocktail-queue&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test.java.at.fhj.msd" />
+      <recent name="java.at.fhj.msd" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.DoubleQueueTest,testOffer and 4 more">
+    <configuration name="DoubleQueueTest.testElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="msd22_Breithuber_Valentina" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.at.fhj.msd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.at.fhj.msd" />
+      <option name="MAIN_CLASS_NAME" value="test.java.at.fhj.msd.DoubleQueueTest" />
+      <option name="METHOD_NAME" value="testElement" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoubleQueueTest,testOffer and 4 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="msd22_Breithuber_Valentina" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="test.java.at.fhj.msd.DoubleQueueTest,testOffer" />
+        <pattern testClass="test.java.at.fhj.msd.DoubleQueueTest,testPoll" />
+        <pattern testClass="test.java.at.fhj.msd.DoubleQueueTest,testRemove" />
+        <pattern testClass="test.java.at.fhj.msd.DoubleQueueTest,testPeek" />
+        <pattern testClass="test.java.at.fhj.msd.DoubleQueueTest,testElement" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoubleQueueTest.testPoll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="msd22_Breithuber_Valentina" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.at.fhj.msd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.at.fhj.msd" />
+      <option name="MAIN_CLASS_NAME" value="test.java.at.fhj.msd.DoubleQueueTest" />
+      <option name="METHOD_NAME" value="testPoll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoubleQueueTest.testRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="msd22_Breithuber_Valentina" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.at.fhj.msd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.at.fhj.msd" />
+      <option name="MAIN_CLASS_NAME" value="test.java.at.fhj.msd.DoubleQueueTest" />
+      <option name="METHOD_NAME" value="testRemove" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.java.at.fhj.msd in msd22_Breithuber_Valentina" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="msd22_Breithuber_Valentina" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.at.fhj.msd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.at.fhj.msd" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="cocktail-queue" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="cocktail-queue" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DoubleQueueTest,testOffer and 4 more" />
+        <item itemvalue="JUnit.DoubleQueueTest.testRemove" />
+        <item itemvalue="JUnit.DoubleQueueTest.testPoll" />
+        <item itemvalue="JUnit.test.java.at.fhj.msd in msd22_Breithuber_Valentina" />
+        <item itemvalue="JUnit.DoubleQueueTest.testElement" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -69,7 +191,9 @@
       <workItem from="1688234902656" duration="709000" />
       <workItem from="1688329626689" duration="203000" />
       <workItem from="1688330575597" duration="1543000" />
-      <workItem from="1688392440493" duration="880000" />
+      <workItem from="1688332133148" duration="1516000" />
+      <workItem from="1688464016976" duration="2545000" />
+      <workItem from="1688471320110" duration="5965000" />
     </task>
     <servers />
   </component>
@@ -86,5 +210,34 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cocktail-queue/src/test/java/at/fhj/msd/DoubleQueueTest.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/cocktail_queue$StringQueueTest.ic" NAME="StringQueueTest Coverage Results" MODIFIED="1688472641126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.java.at.fhj.msd.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/cocktail_queue$DrinkQueueTest.ic" NAME="DrinkQueueTest Coverage Results" MODIFIED="1688478084445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.java.at.fhj.msd.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/cocktail_queue$DoubleQueueTest.ic" NAME="DoubleQueueTest Coverage Results" MODIFIED="1688494228226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.java.at.fhj.msd.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/cocktail_queue$SimpleDrinkTest.ic" NAME="SimpleDrinkTest Coverage Results" MODIFIED="1688472809667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.java.at.fhj.msd.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/cocktail_queue$test_java_at_fhj_msd_in_msd22_Breithuber_Valentina.ic" NAME="test.java.at.fhj.msd in msd22_Breithuber_Valentina Coverage Results" MODIFIED="1688492922142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.java.at.fhj.msd.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/cocktail_queue$DoubleQueueTest_testOffer_and_4_more.ic" NAME="DoubleQueueTest,testOffer and 4 more Coverage Results" MODIFIED="1688494679734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

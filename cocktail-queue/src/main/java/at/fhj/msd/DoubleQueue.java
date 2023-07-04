@@ -1,4 +1,5 @@
-package at.fhj.iit;
+package main.java.at.fhj.msd;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -44,8 +45,8 @@ public class DoubleQueue {
      * @return First Double in queue
      */
     public Double poll() {
-        Double element = (Double) peek();
-        if (elements.size() == 0) {
+        Double element = peek();
+        if (elements.size() > 0) {
             elements.remove(0);
         }
         return element;
@@ -90,4 +91,6 @@ public class DoubleQueue {
             throw new NoSuchElementException("the queue is empty");
         return element;
     }
+
+    
 }
