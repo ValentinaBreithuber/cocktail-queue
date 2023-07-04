@@ -1,8 +1,9 @@
 package main.java.at.fhj.msd;
 // put into drinkss
 
+
 /**
- * Object with drinks consist of
+ * Object with drinks consist of Liquid
  */
 public class Liquid {
 
@@ -12,7 +13,7 @@ public class Liquid {
     private String name;
 
     /**
-     * volume of liquide
+     * volume of liquid
      */
     private double volume;
 
@@ -35,7 +36,7 @@ public class Liquid {
     }
 
     /**
-     * Gets Name of Liquide
+     * Gets Name of Liquid
      *
      * @return Name of drink
      */
@@ -44,7 +45,7 @@ public class Liquid {
     }
 
     /**
-     * Sets the name of Liquide
+     * Sets the name of Liquid
      *
      * @param name Name of Liquid
      */
@@ -53,7 +54,7 @@ public class Liquid {
     }
 
     /**
-     * Gets Volume of Liquide
+     * Gets Volume of Liquid
      *
      * @return Volume of drink
      */
@@ -62,7 +63,7 @@ public class Liquid {
     }
 
     /**
-     * Sets the Volume of Liquide
+     * Sets the Volume of Liquid
      *
      * @param volume Volume of Liquid
      */
@@ -71,7 +72,7 @@ public class Liquid {
     }
 
     /**
-     * Gets Alcohol Content of Liquide
+     * Gets Alcohol Content of Liquid
      *
      * @return Name of drink
      */
@@ -80,7 +81,7 @@ public class Liquid {
     }
 
     /**
-     * Sets the Alcohol Content of Liquide
+     * Sets the Alcohol Content of Liquid
      *
      * @param alcoholPercent Alcohol Content of Liquid
      */
