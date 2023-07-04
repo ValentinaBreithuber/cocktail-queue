@@ -1,4 +1,4 @@
-package java.at.fhj.msd;
+package test.java.at.fhj.msd;
 
 import main.java.at.fhj.msd.Liquid;
 import main.java.at.fhj.msd.SimpleDrink;
@@ -7,8 +7,9 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
+import java.util.NoSuchElementException;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 public class StringQueueTest {
     StringQueue l1;
@@ -16,19 +17,19 @@ public class StringQueueTest {
     @BeforeEach
     public void setUp() {
         l1=new StringQueue(4);
+        l1.offer("a");
+        l1.offer("b");
+        l1.offer("c");
         l2=new StringQueue(2);
+        l2.offer("a");
+        l2.offer("b");
     }
 
     @DisplayName("Testing offer() method")
     @Test
     public void testOffer() {
-        l1.offer("a");
-        l1.offer("b");
-        l1.offer("c");
         assertEquals(true,l1.offer("d"));
-        l2.offer("a");
-        l2.offer("b");
-        assertEquals(false,l2.offer("c"));
+        assertEquals(false,l2.offer("d"));
     }
 
     @DisplayName("Testing poll() method")
@@ -37,7 +38,7 @@ public class StringQueueTest {
         l1.poll();
         l1.poll();
         l1.poll();
-        assertEquals("d",l1.poll());
+        assertEquals("c",l1.poll());
         l2.poll();
         l2.poll();
         assertEquals(null,l2.poll());
@@ -48,11 +49,10 @@ public class StringQueueTest {
     void testRemove(){
         l1.remove();
         l1.remove();
-        l1.remove();
-        assertEquals("d",l1.remove());
+        assertEquals("c",l1.remove());
         l2.remove();
         l2.remove();
-        assertThrows(ArithmeticException.class, () -> {
+        assertThrows(NoSuchElementException.class, () -> {
             l2.remove();
         });
     }
@@ -66,7 +66,7 @@ public class StringQueueTest {
         l1.remove();
         l1.peek();
         l1.remove();
-        assertEquals("d",l1.peek());
+        assertEquals("c",l1.peek());
         l1.remove();
         l2.peek();
         l2.remove();
@@ -83,17 +83,14 @@ public class StringQueueTest {
         l1.remove();
         l1.element();
         l1.remove();
-        l1.element();
-        l1.remove();
-        assertEquals("d",l1.element());
+        assertEquals("c",l1.element());
         l1.remove();
         l2.element();
         l2.remove();
         l2.element();
         l2.remove();
-        assertThrows(ArithmeticException.class, () -> {
+        assertThrows(NoSuchElementException.class, () -> {
             l2.element();
         });
-        l2.remove();
     }
 }
