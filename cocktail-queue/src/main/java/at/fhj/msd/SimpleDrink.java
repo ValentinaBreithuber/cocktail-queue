@@ -9,7 +9,7 @@ public class SimpleDrink extends Drink{
      */
     protected Liquid l;
     /**
-     * Creates a SimpleDrink object with given age and
+     * Creates a SimpleDrink object with given name and
      * liquid
      *
      * @param name name of drink

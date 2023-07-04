@@ -21,7 +21,7 @@ public class StringQueue implements IQueue {
      * adds elements to list
      *
      * @param obj element to add
-     * @return true when added succesfully, false if not added succssfully
+     * @return true when added successfully, false if not added successfully
      */
     @Override
     public boolean offer(String obj) {
