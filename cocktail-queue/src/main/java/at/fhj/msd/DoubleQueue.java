@@ -44,8 +44,8 @@ public class DoubleQueue {
      * @return First Double in queue
      */
     public Double poll() {
-        Double element = (Double) peek();
-        if (elements.size() == 0) {
+        Double element = peek();
+        if (elements.size() > 0) {
             elements.remove(0);
         }
         return element;

@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="dc4d181f-6d68-41f2-baa0-e088e780d558" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cocktail-queue/src/main/java/at/fhj/msd/DoubleQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/cocktail-queue/src/main/java/at/fhj/msd/DoubleQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cocktail-queue/src/test/java/at/fhj/msd/DoubleQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cocktail-queue/src/test/java/at/fhj/msd/DoubleQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/at/fhj/msd/DoubleQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/at/fhj/msd/DoubleQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/at/fhj/msd/DoubleQueueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/java/at/fhj/msd/DoubleQueueTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,11 +211,25 @@
       </map>
     </option>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cocktail-queue/src/test/java/at/fhj/msd/DoubleQueueTest.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/cocktail_queue$StringQueueTest.ic" NAME="StringQueueTest Coverage Results" MODIFIED="1688472641126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.java.at.fhj.msd.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/cocktail_queue$DrinkQueueTest.ic" NAME="DrinkQueueTest Coverage Results" MODIFIED="1688478084445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.java.at.fhj.msd.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/cocktail_queue$DoubleQueueTest.ic" NAME="DoubleQueueTest Coverage Results" MODIFIED="1688494228226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.java.at.fhj.msd.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/cocktail_queue$SimpleDrinkTest.ic" NAME="SimpleDrinkTest Coverage Results" MODIFIED="1688472809667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -222,5 +238,6 @@
     <SUITE FILE_PATH="coverage/cocktail_queue$test_java_at_fhj_msd_in_msd22_Breithuber_Valentina.ic" NAME="test.java.at.fhj.msd in msd22_Breithuber_Valentina Coverage Results" MODIFIED="1688492922142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.java.at.fhj.msd.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/cocktail_queue$DoubleQueueTest_testOffer_and_4_more.ic" NAME="DoubleQueueTest,testOffer and 4 more Coverage Results" MODIFIED="1688494679734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
