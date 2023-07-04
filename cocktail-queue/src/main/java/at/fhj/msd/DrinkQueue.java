@@ -1,4 +1,6 @@
-package at.fhj.iit;
+package main.java.at.fhj.msd;
+import main.java.at.fhj.msd.Drink;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;

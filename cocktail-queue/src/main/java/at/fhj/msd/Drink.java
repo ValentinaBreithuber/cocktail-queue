@@ -1,4 +1,4 @@
-package at.fhj.iit;
+package main.java.at.fhj.msd;
 
 /**
  * Abstract base class for concrete drink classes

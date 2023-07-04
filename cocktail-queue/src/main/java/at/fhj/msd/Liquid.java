@@ -1,4 +1,4 @@
-package at.fhj.iit;
+package main.java.at.fhj.msd;
 // put into drinkss
 
 /**
