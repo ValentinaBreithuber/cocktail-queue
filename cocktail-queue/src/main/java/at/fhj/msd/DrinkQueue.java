@@ -9,7 +9,7 @@ public class DrinkQueue {
     /**
      * List of all Drinks
      */
-    private List<Object> elements = new ArrayList<Object>();
+    private List<Drink> elements = new ArrayList<>();
     /**
      * Maximum size of list
      */
@@ -42,8 +42,8 @@ public class DrinkQueue {
      *
      * @return element
      */
-    public Object poll() {
-        Object element = peek();
+    public Drink poll() {
+        Drink element = (Drink) peek();
         if (elements.size() == 0) {
             elements.remove(0);
         }
@@ -55,8 +55,8 @@ public class DrinkQueue {
      *
      * @return element
      */
-    public Object remove() {
-        Object element = poll();
+    public Drink remove() {
+        Drink element = poll();
         if (element == null)
             throw new NoSuchElementException("there is no element here");
         return element;
@@ -66,8 +66,8 @@ public class DrinkQueue {
      *
      * @return element
      */
-    public Object peek() {
-        Object element;
+    public Drink peek() {
+        Drink element;
         if (elements.size() > 0)
             element = elements.get(0);
         else
@@ -81,8 +81,8 @@ public class DrinkQueue {
      * @return element
      * @throws NoSuchElementException if the queue is empty
      */
-    public Object element() {
-        Object element = peek();
+    public Drink element() {
+        Drink element = peek();
         if (element == null)
             throw new NoSuchElementException("the queue is empty");
         return element;
