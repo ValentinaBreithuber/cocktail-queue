@@ -9,9 +9,9 @@
 - [X] bug_hunt
 - [X] Interface drinks
 - [X] Queue in Interface drinks
-- [ ] Update Queue to double_queue
-- [ ] JavaDocs
-- [ ] Test methods
+- [X] Update Queue to double_queue
+- [X] JavaDocs
+- [X] Test methods
 
 ## drinks.java
 In class 'Cocktail.java' implement the Interface 'Drink', in it drinks can be made. 
