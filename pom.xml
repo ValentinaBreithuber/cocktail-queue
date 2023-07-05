@@ -12,11 +12,23 @@
     <developers>
         <developer>
             <id>valentinabreithuber</id>
-            <name>Valentina Breihtuber</name>
+            <name>Valentina Breihthuber</name>
             <email>valentina.breithuber@fh-joanneum.at</email>
             <organization>FH JOANNEUM GmbH</organization>
             <organizationUrl>https://www.fh-joanneum.at/iit</organizationUrl>
             <url>https://github.com/ValentinaBreithuber/cocktail-queue.git</url>
+            <roles>
+                <role>Student</role>
+            </roles>
+            <timezone>Europe/Vienna</timezone>
+        </developer>
+        <developer>
+            <id>dominikkainbacher</id>
+            <name>Dominik Kainbacher</name>
+            <email>Dominik.Kainbacher@fh-joanneum.at</email>
+            <organization>FH JOANNEUM GmbH</organization>
+            <organizationUrl>https://www.fh-joanneum.at/iit</organizationUrl>
+            <url>https://github.com/DominikKainbacher/cocktail-queue.git</url>
             <roles>
                 <role>Student</role>
             </roles>
@@ -121,7 +133,7 @@
                 <artifactId>maven-site-plugin</artifactId>
                 <version>3.12.1</version>
             </plugin>
-           
+
             <!--  Test Coverage from JaCoCo Plugin integration in Maven Site Documentation  -->
             <plugin>
                 <groupId>org.jacoco</groupId>
