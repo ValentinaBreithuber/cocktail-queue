@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="msd22_Breithuber_Valentina" target="1.6" />
+      <module name="msd22_Breithuber_Valentina" target="20" />
     </bytecodeTargetLevel>
   </component>
 </project>
