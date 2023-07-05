@@ -16,9 +16,9 @@
             <item name="DoubleQueueTest" href="DoubleQueueTest.html"/>
             <item name="StringQueueTest" href="StringQueueTest.html"/>
             <item name="SimpleDrinkTest" href="SimpleDrinkTest.html"/>
-            <item name="member1.md" href="member1.md"/>
-            <item name="member2.md" href="member2.md"/>
-            <item name="member3.md" href="member3.md"/>
+            <item name="member1.md" href="member1.html"/>
+            <item name="member2.md" href="member2.html"/>
+            <item name="member3.md" href="member3.html"/>
         </menu>
         <menu ref="reports"/>
     </body>
