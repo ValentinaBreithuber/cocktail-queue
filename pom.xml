@@ -121,16 +121,7 @@
                 <artifactId>maven-site-plugin</artifactId>
                 <version>3.12.1</version>
             </plugin>
-            <!--  Java Doc within Maven Site Documentation -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-javadoc-plugin</artifactId>
-                <version>3.5.0</version>
-                <configuration>
-                    <!--  Disable JavaDoc warnings  -->
-                    <additionalJOption>-Xdoclint:none</additionalJOption>
-                </configuration>
-            </plugin>
+           
             <!--  Test Coverage from JaCoCo Plugin integration in Maven Site Documentation  -->
             <plugin>
                 <groupId>org.jacoco</groupId>

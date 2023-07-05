@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b5ddd11c-805b-4f44-b635-9eb2849ff620" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__com_thoughtworks_qdox_qdox_2_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__commons_io_commons_io_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__org_apache_maven_plugins_maven_compiler_plugin_3_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__org_apache_maven_shared_maven_shared_incremental_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__org_apache_maven_shared_maven_shared_utils_3_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__org_codehaus_plexus_plexus_compiler_api_2_13_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__org_codehaus_plexus_plexus_compiler_javac_2_13_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__org_codehaus_plexus_plexus_compiler_manager_2_13_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__org_codehaus_plexus_plexus_component_annotations_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__org_codehaus_plexus_plexus_java_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_3_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__org_ow2_asm_asm_9_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/at/fhj/msd/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/at/fhj/msd/Cocktail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/at/fhj/msd/DoubleQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/at/fhj/msd/Drink.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/at/fhj/msd/DrinkQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/at/fhj/msd/IQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/at/fhj/msd/Liquid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/at/fhj/msd/SimpleDrink.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/at/fhj/msd/StringQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/at/fhj/msd/msd.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/markdown/member1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/markdown/member2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/markdown/member3.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2S44SW73nXpixyWgueWIeLzSMb0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dominik/Documents/GitHub/cocktail-queue&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="src" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="src" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5ddd11c-805b-4f44-b635-9eb2849ff620" name="Changes" comment="" />
+      <created>1688392518901</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688392518901</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/src$CocktailTest.ic" NAME="CocktailTest Coverage Results" MODIFIED="1688563236809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.java.at.fhj.msd.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/src$DrinkQueueTest.ic" NAME="DrinkQueueTest Coverage Results" MODIFIED="1688563227137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.java.at.fhj.msd.*</FILTER>
+    </SUITE>
+  </component>
+</project>
