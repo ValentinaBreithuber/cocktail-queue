@@ -3,19 +3,6 @@
     <version position="left"/>
     <body>
         <menu name="Overview">
-            <item name="Introduction" href="README.html"/>
-            <item name="Drink" href="Drink.html"/>
-            <item name="Cocktail" href="Cocktail.html"/>
-            <item name="DoubleQueue" href="DoubleQueue.html"/>
-            <item name="StringQueue" href="StringQueue.html"/>
-            <item name="IQueue" href="ISchedule.html"/>
-            <item name="Liquid" href="Liquid.html"/>
-            <item name="SimpleDrink" href="SimpleDrink.html"/>
-            <item name="DrinkTest" href="DrinkTest.html"/>
-            <item name="CocktailTest" href="CocktailTest.html"/>
-            <item name="DoubleQueueTest" href="DoubleQueueTest.html"/>
-            <item name="StringQueueTest" href="StringQueueTest.html"/>
-            <item name="SimpleDrinkTest" href="SimpleDrinkTest.html"/>
             <item name="member1.md" href="member1.html"/>
             <item name="member2.md" href="member2.html"/>
             <item name="member3.md" href="member3.html"/>

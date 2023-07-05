@@ -30,6 +30,18 @@
         </roles>
         <timezone>Europe/Vienna</timezone>
     </developer>
+    <developer>
+        <id>alaaabouelfadl</id>
+        <name>Alaa Abou El Fadl</name>
+        <email>alaa.abouelfadl@edu.fh-joanneum.at</email>
+        <organization>FH JOANNEUM GmbH</organization>
+        <organizationUrl>https://www.fh-joanneum.at/iit</organizationUrl>
+        <url>https://github.com/Alaa-Abou-El-Fadl</url>
+        <roles>
+            <role>Student</role>
+        </roles>
+        <timezone>Europe/Vienna</timezone>
+    </developer>
 </developers>
 <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
