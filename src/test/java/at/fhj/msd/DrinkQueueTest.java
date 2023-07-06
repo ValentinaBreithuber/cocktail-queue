@@ -46,7 +46,7 @@ public class DrinkQueueTest {
     void testPoll() {
         l1.poll();
         l1.poll();
-        String obj=l1.poll().getName();
+        String obj=l1.poll().toString();
         assertEquals("c",obj);
         l2.poll();
         l2.poll();
@@ -57,7 +57,7 @@ public class DrinkQueueTest {
     @Test
     void testRemove(){
         l1.remove();
-        String obj=l1.remove().getName();
+        String obj= l1.remove().toString();
         assertEquals("b",obj);
         l2.remove();
         l2.remove();
@@ -73,7 +73,7 @@ public class DrinkQueueTest {
         l1.remove();
         l1.peek();
         l1.remove();
-        String obj=l1.peek().getName();
+        String obj=l1.peek().toString();
         assertEquals("c",obj);
         l1.remove();
         l2.peek();
@@ -90,7 +90,7 @@ public class DrinkQueueTest {
         l1.remove();
         l1.element();
         l1.remove();
-        String obj=l1.element().getName();
+        String obj=l1.element().toString();
         assertEquals("c",obj);
         l1.remove();
         l2.element();

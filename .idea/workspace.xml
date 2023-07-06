@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc4d181f-6d68-41f2-baa0-e088e780d558" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/at/fhj/msd/DrinkQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at/fhj/msd/DrinkQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/at/fhj/msd/LiquidTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at/fhj/msd/LiquidTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +190,7 @@
       <workItem from="1688332133148" duration="1516000" />
       <workItem from="1688464016976" duration="2545000" />
       <workItem from="1688471320110" duration="5965000" />
-      <workItem from="1688645513001" duration="23000" />
+      <workItem from="1688645513001" duration="1733000" />
     </task>
     <servers />
   </component>
@@ -218,6 +221,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/cocktail_queue$CockTailTest.ic" NAME="CockTailTest Coverage Results" MODIFIED="1688638311594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/GitHub$DoubleQueueTest.ic" NAME="DoubleQueueTest Coverage Results" MODIFIED="1688648230202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/cocktail_queue$StringQueueTest.ic" NAME="StringQueueTest Coverage Results" MODIFIED="1688638298173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/cocktail_queue$DrinkQueueTest.ic" NAME="DrinkQueueTest Coverage Results" MODIFIED="1688638260162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/cocktail_queue$LiquidTest.ic" NAME="LiquidTest Coverage Results" MODIFIED="1688638273798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
