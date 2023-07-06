@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="info" name="cocktail-queue">
+    <Appenders>
+        <File name="cocktail-queue" fileName="logs/myapp.log" append="true">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="cocktail-queue"/>
+        </Root>
+    </Loggers>
+</Configuration>
