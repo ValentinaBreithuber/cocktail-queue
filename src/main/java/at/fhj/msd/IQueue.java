@@ -1,4 +1,5 @@
-package at.fhj.iit;
+package at.fhj.msd;
+
 /**
  * Interface base class for sorting Strings into Queue
  */

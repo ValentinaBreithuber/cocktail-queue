@@ -3,6 +3,3 @@
 *.idea
 *.iml
 *.class
-target
-.idea
-*.log
