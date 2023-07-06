@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="cocktail-queue" target="17" />
+      <module name="cocktail-queue" target="20" />
     </bytecodeTargetLevel>
   </component>
 </project>

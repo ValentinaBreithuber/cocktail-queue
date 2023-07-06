@@ -1,0 +1,11 @@
+<project name="cocktail-queue">
+    <publishDate position="right"/>
+    <version position="left"/>
+    <body>
+        <menu name="Overview">
+            <item name="Member 1" href="member1.html"/>
+
+        </menu>
+        <menu ref="reports"/>
+    </body>
+</project>
