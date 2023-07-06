@@ -5,11 +5,95 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc4d181f-6d68-41f2-baa0-e088e780d558" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_shared_incremental_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_shared_utils_3_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_component_annotations_1_5_5.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cocktail-queue/src/main/java/at/fhj/msd/DoubleQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/cocktail-queue/src/main/java/at/fhj/msd/DoubleQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/at/fhj/msd/DoubleQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/at/fhj/msd/DoubleQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/java/at/fhj/msd/DoubleQueueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/java/at/fhj/msd/DoubleQueueTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/cocktail-queue.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/src/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/src/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/src/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/src/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/src/cocktail-queue.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/src/main/java/at/fhj/msd/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/src/main/java/at/fhj/msd/Cocktail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/src/main/java/at/fhj/msd/DoubleQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/src/main/java/at/fhj/msd/Drink.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/src/main/java/at/fhj/msd/DrinkQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/src/main/java/at/fhj/msd/IQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/src/main/java/at/fhj/msd/Liquid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/src/main/java/at/fhj/msd/SimpleDrink.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/src/main/java/at/fhj/msd/StringQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/src/main/java/at/fhj/msd/msd.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/src/site/site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/src/test/java/at/fhj/msd/CocktailTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/src/test/java/at/fhj/msd/DoubleQueueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/src/test/java/at/fhj/msd/DrinkQueueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/src/test/java/at/fhj/msd/LiquidTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/src/test/java/at/fhj/msd/SimpleDrinkTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/src/test/java/at/fhj/msd/StringQueueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/target/classes/main/java/at/fhj/msd/Cocktail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/target/classes/main/java/at/fhj/msd/DoubleQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/target/classes/main/java/at/fhj/msd/Drink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/target/classes/main/java/at/fhj/msd/DrinkQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/target/classes/main/java/at/fhj/msd/IQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/target/classes/main/java/at/fhj/msd/Liquid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/target/classes/main/java/at/fhj/msd/SimpleDrink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/target/classes/main/java/at/fhj/msd/StringQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/target/surefire-reports/2023-07-04T13-42-52_463-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/target/surefire-reports/2023-07-04T13-42-52_463-jvmRun1.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/target/surefire-reports/TEST-test.java.at.fhj.msd.CocktailTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/target/surefire-reports/TEST-test.java.at.fhj.msd.DoubleQueueTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/target/surefire-reports/TEST-test.java.at.fhj.msd.DrinkQueueTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/target/surefire-reports/TEST-test.java.at.fhj.msd.LiquidTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/target/surefire-reports/TEST-test.java.at.fhj.msd.SimpleDrinkTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/target/surefire-reports/TEST-test.java.at.fhj.msd.StringQueueTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/target/surefire-reports/test.java.at.fhj.msd.CocktailTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/target/surefire-reports/test.java.at.fhj.msd.DoubleQueueTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/target/surefire-reports/test.java.at.fhj.msd.DrinkQueueTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/target/surefire-reports/test.java.at.fhj.msd.LiquidTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/target/surefire-reports/test.java.at.fhj.msd.SimpleDrinkTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/target/surefire-reports/test.java.at.fhj.msd.StringQueueTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/target/test-classes/test/java/at/fhj/msd/CocktailTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/target/test-classes/test/java/at/fhj/msd/DoubleQueueTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/target/test-classes/test/java/at/fhj/msd/DrinkQueueTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/target/test-classes/test/java/at/fhj/msd/LiquidTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/target/test-classes/test/java/at/fhj/msd/SimpleDrinkTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocktail-queue/target/test-classes/test/java/at/fhj/msd/StringQueueTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msd22_Breithuber_Valentina.iml" beforeDir="false" afterPath="$PROJECT_DIR$/msd22_Breithuber_Valentina.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cocktail-queue.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/at/fhj/msd/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/at/fhj/msd/Cocktail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/at/fhj/msd/DoubleQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/at/fhj/msd/Drink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/at/fhj/msd/DrinkQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/at/fhj/msd/IQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/at/fhj/msd/Liquid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/at/fhj/msd/SimpleDrink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/at/fhj/msd/StringQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/at/fhj/msd/msd.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/site/site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/at/fhj/msd/CocktailTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/at/fhj/msd/DrinkQueueTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/at/fhj/msd/LiquidTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/at/fhj/msd/SimpleDrinkTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/at/fhj/msd/StringQueueTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,105 +124,102 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2RtYH3PFjBBrdmm1Mo95ipb8bFU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/alaaa/OneDrive/Documents/GitHub/cocktail-queue&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Dominik/Documents/GitHub/cocktail-queue",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="test.java.at.fhj.msd" />
       <recent name="java.at.fhj.msd" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DoubleQueueTest,testOffer and 4 more">
-    <configuration name="DoubleQueueTest.testElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DoubleQueueTest">
+    <configuration name="CockTailTest" type="JUnit" factoryName="JUnit">
       <module name="msd22_Breithuber_Valentina" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.java.at.fhj.msd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.java.at.fhj.msd" />
-      <option name="MAIN_CLASS_NAME" value="test.java.at.fhj.msd.DoubleQueueTest" />
-      <option name="METHOD_NAME" value="testElement" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="at.fhj.msd" />
+      <option name="MAIN_CLASS_NAME" value="at.fhj.msd.CocktailTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoubleQueueTest,testOffer and 4 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DoubleQueueTest" type="JUnit" factoryName="JUnit">
       <module name="msd22_Breithuber_Valentina" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="test.java.at.fhj.msd.DoubleQueueTest,testOffer" />
-        <pattern testClass="test.java.at.fhj.msd.DoubleQueueTest,testPoll" />
-        <pattern testClass="test.java.at.fhj.msd.DoubleQueueTest,testRemove" />
-        <pattern testClass="test.java.at.fhj.msd.DoubleQueueTest,testPeek" />
-        <pattern testClass="test.java.at.fhj.msd.DoubleQueueTest,testElement" />
-      </patterns>
+      <option name="PACKAGE_NAME" value="at.fhj.msd" />
+      <option name="MAIN_CLASS_NAME" value="at.fhj.msd.DoubleQueueTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoubleQueueTest.testPoll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DrinkQueueTest" type="JUnit" factoryName="JUnit">
       <module name="msd22_Breithuber_Valentina" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.java.at.fhj.msd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.java.at.fhj.msd" />
-      <option name="MAIN_CLASS_NAME" value="test.java.at.fhj.msd.DoubleQueueTest" />
-      <option name="METHOD_NAME" value="testPoll" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="at.fhj.msd" />
+      <option name="MAIN_CLASS_NAME" value="at.fhj.msd.DrinkQueueTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoubleQueueTest.testRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LiquidTest" type="JUnit" factoryName="JUnit">
       <module name="msd22_Breithuber_Valentina" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.java.at.fhj.msd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.java.at.fhj.msd" />
-      <option name="MAIN_CLASS_NAME" value="test.java.at.fhj.msd.DoubleQueueTest" />
-      <option name="METHOD_NAME" value="testRemove" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="at.fhj.msd" />
+      <option name="MAIN_CLASS_NAME" value="at.fhj.msd.LiquidTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test.java.at.fhj.msd in msd22_Breithuber_Valentina" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleDrinkTest" type="JUnit" factoryName="JUnit">
       <module name="msd22_Breithuber_Valentina" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.java.at.fhj.msd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.java.at.fhj.msd" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="at.fhj.msd" />
+      <option name="MAIN_CLASS_NAME" value="at.fhj.msd.SimpleDrinkTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringQueueTest" type="JUnit" factoryName="JUnit">
+      <module name="msd22_Breithuber_Valentina" />
+      <option name="PACKAGE_NAME" value="at.fhj.msd" />
+      <option name="MAIN_CLASS_NAME" value="at.fhj.msd.StringQueueTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="msd22_Breithuber_Valentina" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -156,15 +237,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.DoubleQueueTest,testOffer and 4 more" />
-        <item itemvalue="JUnit.DoubleQueueTest.testRemove" />
-        <item itemvalue="JUnit.DoubleQueueTest.testPoll" />
-        <item itemvalue="JUnit.test.java.at.fhj.msd in msd22_Breithuber_Valentina" />
-        <item itemvalue="JUnit.DoubleQueueTest.testElement" />
-      </list>
-    </recent_temporary>
+    <list>
+      <item itemvalue="JUnit.DrinkQueueTest" />
+      <item itemvalue="JUnit.LiquidTest" />
+      <item itemvalue="JUnit.SimpleDrinkTest" />
+      <item itemvalue="JUnit.StringQueueTest" />
+      <item itemvalue="JUnit.Unnamed" />
+      <item itemvalue="JUnit.CockTailTest" />
+      <item itemvalue="JUnit.DoubleQueueTest" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -226,18 +307,21 @@
     <SUITE FILE_PATH="coverage/cocktail_queue$StringQueueTest.ic" NAME="StringQueueTest Coverage Results" MODIFIED="1688472641126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.java.at.fhj.msd.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/cocktail_queue$DrinkQueueTest.ic" NAME="DrinkQueueTest Coverage Results" MODIFIED="1688478084445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>test.java.at.fhj.msd.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/cocktail_queue$DoubleQueueTest.ic" NAME="DoubleQueueTest Coverage Results" MODIFIED="1688494228226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>test.java.at.fhj.msd.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/cocktail_queue$SimpleDrinkTest.ic" NAME="SimpleDrinkTest Coverage Results" MODIFIED="1688472809667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.java.at.fhj.msd.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/cocktail_queue$DrinkQueueTest.ic" NAME="DrinkQueueTest Coverage Results" MODIFIED="1688478084445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.java.at.fhj.msd.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/cocktail_queue$test_java_at_fhj_msd_in_msd22_Breithuber_Valentina.ic" NAME="test.java.at.fhj.msd in msd22_Breithuber_Valentina Coverage Results" MODIFIED="1688492922142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.java.at.fhj.msd.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/cocktail_queue$DoubleQueueTest_testOffer_and_4_more.ic" NAME="DoubleQueueTest,testOffer and 4 more Coverage Results" MODIFIED="1688494679734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/cocktail_queue$CocktailTest.ic" NAME="CocktailTest Coverage Results" MODIFIED="1688638057730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>at.fhj.msd.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/cocktail_queue$DoubleQueueTest.ic" NAME="DoubleQueueTest Coverage Results" MODIFIED="1688494228226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.java.at.fhj.msd.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/cocktail_queue$DoubleQueueTest_testOffer_and_4_more.ic" NAME="DoubleQueueTest,testOffer and 4 more Coverage Results" MODIFIED="1688637758173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
